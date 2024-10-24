@@ -13,6 +13,11 @@
 ## Model Evaluation 
 The model achieved a test accuracy of ~94% and a test loss of 0.20, indicating effective performance in classifying fish species.
 
+## Results
+With hyperparameter optimization final result is:
+- Test Loss: 0.1403554081916809
+- Test Accuracy: 0.95333331823349
+
 ## Additional informations abot training results:
 
 #Trial 1
@@ -99,5 +104,5 @@ better accuracy but overfitting
 ![image](https://github.com/user-attachments/assets/009465f4-c382-4dea-9653-a65e610e0965)
 Best result but after re-reunning the same model could not get same accuracy but get close as you can see in the project file provided (This project file also uploaded but without markdowns, named as fishclassification_best.ipynb).
 
-Keggle link:
+Keggle link: https://www.kaggle.com/code/karinmanto/fishclassificaiton-ann/notebook
 
