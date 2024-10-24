@@ -11,12 +11,9 @@
 - Learning Rate: Set to 0.00001 for stable convergence; Dropout Rate: A 0.3 dropout was applied to prevent overfitting; Batch Size: Each batch contained 32 samples to optimize training efficiency and stability.
 - Early Stopping: The model utilized early stopping to prevent overfitting by stoping training if the validation loss didn’t improve for 3 consecutive epochs.
 ## Model Evaluation 
-The model achieved a test accuracy of ~94% and a test loss of 0.20, indicating effective performance in classifying fish species.
+The model achieved a test accuracy of ~95% and a test loss of 0.14, indicating effective performance in classifying fish species.
 
-## Results
-With hyperparameter optimization final result is:
-- Test Loss: 0.1403554081916809
-- Test Accuracy: 0.95333331823349
+- Please note that the differences in results may be attributed to the fact that when a Kaggle notebook is shared, it is re-run upon submission. As a result, small changes in metrics like accuracy or loss may occur due to factors such as randomness in data splits or model initialization.
 
 ## Additional informations abot training results:
 
